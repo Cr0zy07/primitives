@@ -34,6 +34,9 @@ importers:
       '@oku-ui/collapsible':
         specifier: workspace:^
         version: link:packages/components/collapsible
+      '@oku-ui/direction':
+        specifier: workspace:^
+        version: link:packages/components/direction
       '@oku-ui/label':
         specifier: workspace:^
         version: link:packages/components/label
@@ -281,6 +284,16 @@ importers:
       '@oku-ui/utils':
         specifier: latest
         version: link:../../core/utils
+      vue:
+        specifier: ^3.3.2
+        version: 3.3.4
+    devDependencies:
+      tsconfig:
+        specifier: workspace:^
+        version: link:../../tsconfig
+
+  packages/components/direction:
+    dependencies:
       vue:
         specifier: ^3.3.2
         version: 3.3.4
