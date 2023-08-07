@@ -1,6 +1,6 @@
 import { type PropType, defineComponent, inject, provide } from 'vue'
 
-type Direction = 'ltr' | 'rtl'
+export type Direction = 'ltr' | 'rtl'
 const DirectionContextSymbol = Symbol('DirectionContext')
 
 /* -------------------------------------------------------------------------------------------------
