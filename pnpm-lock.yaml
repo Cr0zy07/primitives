@@ -21,6 +21,7 @@ overrides:
   '@oku-ui/hover-card': workspace:^
   '@oku-ui/label': workspace:^
   '@oku-ui/menu': workspace:^
+  '@oku-ui/menubar': workspace:^
   '@oku-ui/popover': workspace:^
   '@oku-ui/popper': workspace:^
   '@oku-ui/portal': workspace:^
@@ -112,6 +113,9 @@ importers:
       '@oku-ui/menu':
         specifier: workspace:^
         version: link:packages/core/menu
+      '@oku-ui/menubar':
+        specifier: workspace:^
+        version: link:packages/components/menubar
       '@oku-ui/popover':
         specifier: workspace:^
         version: link:packages/components/popover
@@ -555,6 +559,43 @@ importers:
       '@oku-ui/primitive':
         specifier: workspace:^
         version: link:../../core/primitive
+      '@oku-ui/use-composable':
+        specifier: workspace:^
+        version: link:../../core/use-composable
+      '@oku-ui/utils':
+        specifier: workspace:^
+        version: link:../../core/utils
+      vue:
+        specifier: 3.3.7
+        version: 3.3.7(typescript@5.2.2)
+    devDependencies:
+      tsconfig:
+        specifier: workspace:^
+        version: link:../../tsconfig
+
+  packages/components/menubar:
+    dependencies:
+      '@floating-ui/vue':
+        specifier: ^1.0.2
+        version: 1.0.2(vue@3.3.7)
+      '@oku-ui/context-menu':
+        specifier: workspace:^
+        version: link:../context-menu
+      '@oku-ui/direction':
+        specifier: workspace:^
+        version: link:../../core/direction
+      '@oku-ui/menu':
+        specifier: workspace:^
+        version: link:../../core/menu
+      '@oku-ui/primitive':
+        specifier: workspace:^
+        version: link:../../core/primitive
+      '@oku-ui/provide':
+        specifier: workspace:^
+        version: link:../../core/provide
+      '@oku-ui/roving-focus':
+        specifier: workspace:^
+        version: link:../../core/roving-focus
       '@oku-ui/use-composable':
         specifier: workspace:^
         version: link:../../core/use-composable
@@ -1537,6 +1578,9 @@ importers:
       '@oku-ui/menu':
         specifier: workspace:^
         version: link:../../packages/core/menu
+      '@oku-ui/menubar':
+        specifier: workspace:^
+        version: link:../../packages/components/menubar
       '@oku-ui/popover':
         specifier: workspace:^
         version: link:../../packages/components/popover
@@ -1622,6 +1666,9 @@ importers:
       '@oku-ui/menu':
         specifier: workspace:^
         version: link:../../packages/core/menu
+      '@oku-ui/menubar':
+        specifier: workspace:^
+        version: link:../../packages/components/menubar
       '@oku-ui/primitives':
         specifier: workspace:^
         version: link:../../packages/components/primitives

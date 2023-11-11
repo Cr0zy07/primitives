@@ -16,6 +16,7 @@
     "@oku-ui/checkbox": "workspace:^",
     "@oku-ui/label": "workspace:^",
     "@oku-ui/menu": "workspace:^",
+    "@oku-ui/menubar": "workspace:^",
     "@oku-ui/primitives": "workspace:^",
     "@oku-ui/progress": "workspace:^",
     "@oku-ui/roving-focus": "workspace:^",

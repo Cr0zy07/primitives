@@ -26,6 +26,7 @@
     "@oku-ui/hover-card": "workspace:^",
     "@oku-ui/label": "workspace:^",
     "@oku-ui/menu": "workspace:^",
+    "@oku-ui/menubar": "workspace:^",
     "@oku-ui/popover": "workspace:^",
     "@oku-ui/popper": "workspace:^",
     "@oku-ui/portal": "workspace:^",

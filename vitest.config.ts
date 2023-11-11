@@ -44,6 +44,8 @@ export default defineConfig({
       '@oku-ui/dialog': 'packages/components/dialog/src',
       '@oku-ui/primitives': 'packages/components/primitives/src',
       '@oku-ui/accordion': 'packages/components/accordion/src',
+      '@oku-ui/context-menu': 'packages/components/context-menu/src',
+      '@oku-ui/menubar': 'packages/components/menubar/src',
 
       '@oku-ui/menu': 'packages/core/menu/src',
       '@oku-ui/dismissable-layer': 'packages/core/dismissable-layer/src',
